@@ -46,7 +46,7 @@ public class Main {
             System.out.println("3. Logarithm");
             System.out.println("4. Power");
             System.out.println("5. Exit");
-            System.out.println("Select From the above Menu");
+            System.out.println("Select from the above Menu");
             menu = scan.nextInt();
         }
     }
