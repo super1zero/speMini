@@ -45,7 +45,7 @@ public class Main {
             System.out.println("2. Factorial");
             System.out.println("3. Logarithm");
             System.out.println("4. Power");
-            System.out.println("5. Exit");
+            System.out.println("5. exit");
             System.out.println("Select from the above Menu");
             menu = scan.nextInt();
         }
