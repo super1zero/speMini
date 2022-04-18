@@ -25,13 +25,13 @@ public class Main {
             {
                 System.out.println("Enter number");
                 int x = scan.nextInt();
-                System.out.println("Square root of " + x + " is: " + calculator.factorial(x));
+                System.out.println("Factorial of " + x + " is: " + calculator.factorial(x));
             }
             else if(menu == 3)
             {
                 System.out.println("Enter number");
                 int x = scan.nextInt();
-                System.out.println("Square root of " + x + " is: " + calculator.log(x));
+                System.out.println("Log of " + x + " is: " + calculator.log(x));
             }
             else if(menu == 4)
             {
@@ -39,7 +39,7 @@ public class Main {
                 int x = scan.nextInt();
                 System.out.println("Enter power");
                 int y = scan.nextInt();
-                System.out.println("Square root of " + x + " is: " + calculator.power(x, y));
+                System.out.println(x + "power " + y + " is: " + calculator.power(x, y));
             }
             System.out.println("1. Square Root");
             System.out.println("2. Factorial");

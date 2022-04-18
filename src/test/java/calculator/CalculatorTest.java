@@ -9,8 +9,8 @@ public class CalculatorTest {
     @Test
     public void squarerootTruePositive()
     {
-        assertEquals ("Square root of an Int - True Positive", 2, calc.SquareRoot(4), DELTA);
-        assertEquals ("Square root of an Int - True Positive", 4, calc.SquareRoot(16), DELTA);
+        assertEquals ("Square root of an Int - True Positive", 3, calc.SquareRoot(9), DELTA);
+        assertEquals ("Square root of an Int - True Positive", 5, calc.SquareRoot(25), DELTA);
     }
 
     @Test
@@ -23,7 +23,7 @@ public class CalculatorTest {
     @Test
     public void factorialTruePositive()
     {
-        assertEquals ("factorial of an Int - True Positive", 1, calc.factorial(1), DELTA);
+        assertEquals ("factorial of an Int - True Positive", 6, calc.factorial(3), DELTA);
         assertEquals ("factorial of an Int - True Positive", 120, calc.factorial(5), DELTA);
     }
 
@@ -52,7 +52,7 @@ public class CalculatorTest {
     public void powerTruePositive()
     {
         assertEquals ("power of an Int - True Positive", 0, calc.power(0, 1), DELTA);
-        assertEquals ("power of an Int - True Positive", 100, calc.power(10, 2), DELTA);
+        assertEquals ("power of an Int - True Positive", 1000, calc.power(10, 3), DELTA);
     }
 
     @Test

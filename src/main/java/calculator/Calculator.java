@@ -6,7 +6,8 @@ public class Calculator {
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     public double SquareRoot(int x)
     {
-        logger.info("Square root of "+x+"\t"+ Math.sqrt(x));
+        logger.info("Square root");
+        //logger.info("Square root of "+x+"\t"+ Math.sqrt(x));
         return Math.sqrt(x);
     }
     public double factorial(int x)
@@ -16,19 +17,22 @@ public class Calculator {
         {
             fac = fac*i;
         }
-        logger.info("Factorial of "+x+"\t"+ fac);
+        logger.info("factorial");
+        //logger.info("Factorial of "+x+"\t"+ fac);
         return fac;
     }
 
     public double log(int x)
     {
-        logger.info("Logarithm of "+x+"\t"+ Math.log(x));
+        logger.info("log");
+        //logger.info("Logarithm of "+x+"\t"+ Math.log(x));
         return Math.log(x);
     }
 
     public double power(int x , int y)
     {
-        logger.info(x+"Power"+y+"\t"+ Math.pow(x, y));
+        logger.info("power");
+        //logger.info(x+"Power"+y+"\t"+ Math.pow(x, y));
         return Math.pow(x, y);
     }
 }
